@@ -1,0 +1,4 @@
+
+DIR = 'arts/'
+TOKEN = '5117049525:AAENVV8RYxoTIQC2UMZ2n7Mna5gWmbkRRsI'
+TEA = 'tea_time/'
