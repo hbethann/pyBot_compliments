@@ -62,10 +62,10 @@ def ft_answ(call):
 				bot.send_message(call.message.chat.id, "😢😢😢\n😢😢😢\n😢😢😢\n😢😢😢\n😢😢😢")
 
 			elif call.data == 'teatime':
-				tea = open('tea_time/1.webp', 'rb')
-				bot.send_sticker(call.message.chat.id, tea)
-				tea = open('tea_time/2.webp', 'rb')
-				bot.send_sticker(call.message.chat.id, tea)
+				tea = open('tea_time/teatime.jpg', 'rb')
+				bot.send_photo(call.message.chat.id, tea)
+				tea = open('tea_time/teatime2.jpeg', 'rb')
+				bot.send_photo(call.message.chat.id, tea)
 			else :
 				bot.send_message(call.message.chat.id, "Я не знаю что ответить!")
 
